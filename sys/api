@@ -1,0 +1,20 @@
+<?php
+ob_start();
+require ('/sys/session.php');
+startSession();
+require ('/sys/conf.php');
+
+if(!$user_id and $_SERVER['PHP_SELF'] !== '/index.php' and $_SERVER['PHP_SELF'] !== '/aboutgame.php' and $_SERVER['PHP_SELF'] !== '/autorize.php'  and $_SERVER['PHP_SELF'] !== '/forgott.php')
+{
+    header('Location: index.php');
+    exit;
+}
+
+require ('/theme/head.php');
+
+if($user_id)
+{
+    require ('/sys/g_head.php');
+    require ('/sys/game.php');
+    
+}

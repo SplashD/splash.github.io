@@ -1,0 +1,169 @@
+h1, h2, form, html, p, div, span, table, tbody, td, tr, img, ul, li { margin: 0; padding: 0;}
+body {background: url('/theme/body_bg.png') repeat #000; margin: 0 auto; max-width: 600px; font-family: Verdana, Arial, sans-serif; font-size: 14px; color: #d9d3b5;}
+img {border: 0; vertical-align: middle;}
+ul li { list-style: none;}
+a { color: #adff4d; text-decoration: underline;}
+a:hover { text-decoration: none;}
+div.bg4 {background-color: #0e2a35; color: #76c7ff; padding: 5px; font-weight: bold; text-align: center;}
+div.logo {text-align: center; overflow-x: hidden;}
+div.content {background: url('/theme/bg-box4.png') repeat; color: #ece29e; border-bottom: 1px solid #080c0f;}
+div.bg-box1 {padding: 5px 10px; border-top: 1px solid #191919; background: #3e4f4a;}
+div.bg-box3 {background-color: #1d1c1b;}
+div.bg-box4 {background: url('/theme/bg-box4.png') repeat; color: #ece29e; border-top: 1px solid #73725e; border-bottom: 1px solid #73725e;}
+
+.progress-bar {
+        background-color: #1a1a1a;
+        height: 14px;
+        padding: 2px;
+        width: 99%;
+        margin: 1px 0;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+        -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+        box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span {
+        display: inline-block;
+        height: 14px;
+        width: 99%;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        -webkit-transition: width .4s ease-in-out;
+        -moz-transition: width .4s ease-in-out;
+        -ms-transition: width .4s ease-in-out;
+        -o-transition: width .4s ease-in-out;
+        transition: width .4s ease-in-out;
+}
+
+.blue span {
+        background-color: #34c2e3;
+}
+
+.stripes span {
+        -webkit-background-size: 30px 30px;
+        -moz-background-size: 30px 30px;
+        background-size: 30px 30px;
+        background-image: -webkit-gradient(linear, left top, right bottom,
+                                                color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent),
+                                                color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)),
+                                                color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent),
+                                                to(transparent));
+        background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);            
+
+        -webkit-animation: animate-stripes 3s linear infinite;
+        -moz-animation: animate-stripes 3s linear infinite;
+}
+
+
+red {color: #FE2E2E}
+blue {color: #2E64FE}
+green {color: #01DF3A}
+yellow {color: #F7FE2E}
+orange {color: #FE9A2E}
+aqua {color: #2EFEC8}
+violet {color: #AC58FA}
+pink {color: #FA58AC}
+
+a.btn_link {background: url('/theme/icon/but1.png') no-repeat; display: block; width: 226px; height: 28px; margin: 0 auto; padding-top: 10px; color: #fff; text-transform: uppercase; text-decoration: none; text-align: center; text-shadow: 0.1em 0.1em #000;}
+a.btn_link2 {background: url('/theme/icon/but2.png') no-repeat; display: block; width: 226px; height: 28px; margin: 0 auto; padding-top: 10px; color: #fff; text-transform: uppercase; text-decoration: none; text-align: center; text-shadow: 0.1em 0.1em #000;}
+a.btn_link3 {background: url('/theme/icon/but3.png') no-repeat; display: block; width: 226px; height: 28px; margin: 0 auto; padding-top: 10px; color: #fff; text-transform: uppercase; text-decoration: none; text-align: center; text-shadow: 0.1em 0.1em #000;}
+input.but1 {background: url('/theme/icon/but1.png') no-repeat; color: #fff; width: 226px; height: 38px; margin: 0 auto; padding-bottom: 2px; text-transform: uppercase; cursor: pointer; display: block; text-shadow: 0.1em 0.1em #000;}
+input.but2 {background: url('/theme/icon/but2.png') no-repeat; color: #fff; width: 226px; height: 38px; margin: 0 auto; padding-bottom: 2px; text-transform: uppercase; cursor: pointer; display: block; text-shadow: 0.1em 0.1em #000;}
+input.but3 {background: url('/theme/icon/but3.png') no-repeat; color: #fff; width: 226px; height: 38px; margin: 0 auto; padding-bottom: 2px; text-transform: uppercase; cursor: pointer; display: block; text-shadow: 0.1em 0.1em #000;}
+
+input.swhite {background: url('/img/white.png') no-repeat;}
+input.sdark {background: url('/img/dark.png') no-repeat;}
+
+div.des_content {background-color: #3e4f4a; color: #d2e7bb; border: 1px solid #0b1f38; margin: 3px 2px; padding: 4px;}
+div.des_content2 {background-color: #314547; border: 1px solid #0b1f38; margin: 3px 2px; padding: 4px;}
+div.des_content2 .orange{color: #dfc588;}
+
+div.bg2 {background-color: #3a3242; color: #f6ad96; padding: 5px; font-weight: bold; text-align: center; border-top: 1px solid #051323; border-bottom: 1px solid #051323;}
+div.bg2 a {color: #ffc000;}
+
+.main_menu{background: #4E5D5B; text-align: center; border: 1px solid #170d20;padding: 2px 0;}
+.main_menu div{width: 234px; margin: 0px auto;}
+.main_menu a{display: block; float: left; margin: 1px 0; padding-top: 50px;
+            text-decoration: none; vertical-align: top; width: 78px; color: #efdaad;}
+.main_menu a:hover{color: #ffffff;}
+.main_menu a.color_main_link{ color: #ffffe1; font-weight: bold;}
+.main_menu a.color_main_link:hover{ color: #FFFFFF;}
+.main_arrow img{display: block; margin: -20px auto 0; position: relative; top: -28px;}
+.main_first .main_arrow img{left: 4px;}
+.main_last .main_arrow img{right: 2px;}
+.main_menu_box{text-align: center; padding-left: 1px; margin-top: -22px;}
+.main_menu_box img{padding: 0;}
+
+.center { text-align: center;}
+.p1 { padding: 6px 5px}
+.p2 { padding: 4px 3px 0 3px;}
+.p3 { padding: 5px 4px;}
+.nobr {white-space: nowrap;}
+.shadow {text-shadow: 0.1em 0.1em #2e2827;}
+.spacer{ background: url('/theme/spacer.png') repeat-x; height: 2px;}
+
+.od a { color: white; left: 2px; position: relative; top: -4px; display: block;}
+
+/*Menu*/
+ul.navi {padding: 0px 0px 0px 0px; margin: 0px;}
+ul.navi img {padding: 0px 5px 0px 0px; vertical-align: -25%}
+ul.navi li {background: url('/theme/bg_li_navi.png') repeat-x; margin-bottom: 0px; height: 38px;}
+ul.navi li a { color: #dbf6bd; display:block; text-decoration: none; padding: 11px 0 5px 4px;}
+ul.navi li:hover a { color: #ffffff; text-decoration: none;}
+ul.navi input {float: left; margin: 10px 5px 0 3px;}
+
+input {vertical-align: middle; background: #e1dccb; font-size: 14px; margin: 0; padding: 0; border: 0px;}
+input.inp {border: 1px solid #4b4933; width: 96%; padding: 5px 0; margin-top: 2px; text-indent: 0px; }
+.but {background: url('/theme/login.jpg') no-repeat; color: #bbdff9; width: 226px; height: 38px; margin: 0 auto; padding-bottom: 2px; text-transform: uppercase; cursor: pointer; display: block;}
+.but_en {background: url('/theme/login_en.png') no-repeat;}
+
+div.footer { background: #1b2b30; text-align: center; padding: 5px 5px 5px 5px; margin-top: 2px; color: #fff; border: 1px solid #324347;}
+div.footer a { color: #b1b1b1;}
+div.footer a:hover { color: #b1b1b1;}
+div.footer a.red {color: #FF0000;}
+div.footer a:hover.red {color: #FF0000;}
+div.footer a.red3 {color: #ff5400;}
+div.footer a:hover.red3 {color: #ff5400;}
+div.footer a.green{color: #2eb431}
+div.footer a.green:hover{color: #2eb431}
+
+/*Color*/
+.lime {color: #c3ff0d;}
+.red { color: #ff0000;}
+
+/*message_box*/
+div.confirm-box {background-color: #bdb493; border: 1px solid #dfd8bf; margin: 3px 2px; padding: 4px; color: #3c2e26; text-align: center;}
+div.bg-green {background-color: #3d5e1f; border: 1px solid #4c873a; margin-bottom: 2px; color: #e5f58f; text-align: center;}
+div.bg-red {background-color: #611f1f; border: 1px solid #b83030; margin-bottom: 2px; color: #f5a28f; text-align: center;}
+div.bgsys3 {padding: 2px 2px 4px 2px;}
+div.bgsys4 { padding: 3px 6px;}
+div.box_m {background-color: #443c38; border: 1px solid #68574e; margin: 3px 0px; padding: 4px; color: #cbc3a6;}
+
+div.tip {padding: 5px 5px 7px; background-color: #19252e; background-image: url("/theme/stroke.png"), url("/theme/stroke_b.png");
+     background-position: 0 2px, 0 bottom; background-repeat: repeat-x, repeat-x;
+} /*ok*/
+
+.platform.hide{visibility: hidden; display: none;}
+.platform img{padding: 0;}
+.platform a{display: block;}
