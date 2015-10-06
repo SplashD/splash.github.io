@@ -1,3 +1,0 @@
-Options -Indexes
-AddDefaultCharset UTF-8
-php_value date.timezone "Europe/Kiev"
